@@ -1,0 +1,365 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: #424242;
+    margin: 8px 0;
+}
+
+p {
+    font-size: 0.75rem;
+}
+
+.header-desktop {
+    height: 5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border: 1px solid gray;
+}
+
+.logo {
+    margin-left: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-lion {
+    height: 3.5vw;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+
+.academy-color {
+    color: #999999;
+    font-size: 1.5vw;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-right: 24px;
+    font-size: 1.2vw;
+}
+
+li {
+    padding-left: 16px;
+
+}
+
+.header-moble {
+    display: none;
+}
+
+/* first two column section */
+
+.two-column-section {
+   display: flex;
+   padding: 32px 0 32px 24px;
+   border-bottom: lightgray 1px solid;
+}
+
+.background-gray {
+    background-color: lightgray;
+}
+
+h1 {
+    font-size: 2.5vw;
+}
+
+.left-img {
+    width: 60%
+}
+
+.right-text {
+    margin: auto 0 auto 24px;
+    width: 40%;
+}
+
+.main-subtitle {
+    line-height: 1.5;
+    font-size: 1.5vw;
+}
+
+.button {
+    width: 75%;
+    padding: 8px 0;
+    border-radius: 1px;
+    background-color: #424242;
+    color: white;
+    border: none;
+    font-size: 1.2vw;
+}
+
+/* second two column section */
+
+.flex {
+    display: flex;
+    border: 1px lightgray solid;
+}
+
+.keep-practicing {
+    width: 100%;
+}
+
+.keep-practicing p {
+    font-size: 1vw;
+}
+
+h2 {
+    font-size: 2vw;
+}
+
+.right-text2 {
+    margin-left: 24px;
+    width: 40%;
+}
+
+.column-section {
+    padding: 16px;
+}
+
+.column-section:hover {
+    background-color: lightgray;
+}
+
+.small-left-img {
+    width: 35%;
+
+}
+
+.small-right-text {
+    width: 65%;
+    margin: auto;
+}
+
+h4 {
+    margin: 0 0 0 5%;
+    font-size: 1.4vw;
+}
+
+.column-p {
+    margin: 8px 0 8px 5%;
+    font-size: 1vw;
+}
+
+a {
+    text-decoration: none;
+    color: #2b7db7;
+    font-size: 1vw;
+    margin-left: 5%;
+}
+
+/* start learning section */
+
+.start-learning-moble {
+    display: none;
+}
+
+.start-learning h2 {
+    padding: 64px 0 32px 0;
+    margin: 0;
+}
+
+.boxes {
+    padding: 32px 72px;
+}
+
+
+.upper-boxes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.lower-boxes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    background-color: white;
+    margin-bottom: 18px;
+    width: 30%;
+}
+
+.box-img {
+
+}
+
+.text-under {
+    padding: 0 16px;
+}
+
+h3 {
+    font-size: 1.3vw;
+}
+
+.text-under p {
+    font-size: 1vw;
+}
+
+
+/* third two column section */
+
+.main-headings {
+    text-align: center;
+    margin: 64px 0 32px 0;
+}
+
+.reimagine-urban p {
+    font-size: 1vw;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 800px) {
+  
+    .header-moble {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        margin-bottom: 8px;
+    }
+    
+    /* First section */
+
+    .two-column-section {
+        display: block;
+        padding: 0 0 32px 0;
+     }
+     
+     .left-img {
+         width: 100%
+     }
+     
+     .right-text {
+         width: 100%;
+         margin: auto;
+         padding-left: 16px;
+     }
+
+     h1 {
+        font-size: 6.5vw;
+    }
+
+    .main-subtitle {
+        font-size: 4vw;
+    }
+    
+    .button {
+        font-size: 3.5vw;
+    }
+
+
+/* Hidden section */    
+
+    .header-desktop {
+        display: none;
+    }
+
+    .left-img-small {
+        display: none;
+    }
+
+    .reimagine-urban {
+        display: none;
+    }
+
+    .right-text2-moble {
+        display: none;
+    }
+
+    .start-learning {
+        display: none;
+    }
+
+
+/* Second section */ 
+
+    .right-text2 {
+        width: 100%;
+        margin: auto;
+    }
+
+    .column-section {
+        padding: 16px;
+        display: block;
+        border: none;
+    }
+
+    .small-left-img {
+        width: 100%;
+
+    }
+
+    .small-right-text {
+        width: 100%;
+        margin: auto;
+    }
+
+    h4 {
+        margin: 4% 0 0 5%;
+        font-size: 4.5vw;
+    }
+
+    .column-p {
+        margin: 8px 0 8px 5%;
+        font-size: 3vw;
+    }
+
+    a {
+        text-decoration: none;
+        color: #2b7db7;
+        font-size: 3vw;
+        margin-left: 5%;
+    }
+
+/* Start learning section */ 
+
+
+    h2 {
+        font-size: 6vw;
+        background-color: white;
+        text-align: center;
+    }
+
+    .start-learning-moble {
+        display: block;
+        padding-bottom: 32px;
+        border-bottom: 1px lightgray solid;
+    }
+
+
+    .text-box {
+        background-color: lightgray;
+        padding: 16px;
+        margin: 8px;
+    }
+
+    .text-box h3 {
+        font-size: 4vw;
+        margin: 0;
+    }
+
+
+/* Thesis exhibit section */ 
+    
+    .main-headings {
+        margin: 32px 0 0 0;
+    }
+
+    video {
+        margin-top: 16px;
+    }
+}
